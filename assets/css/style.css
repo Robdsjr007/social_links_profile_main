@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+  }
+  
+  html {
+      background-color: black;
+      width: 100%;
+      height: 100%;
+    }
+    
+    body {
+        width: 100%;
+        height: 100%;
+        font-family: 'Inter', sans-serif;
+    }
+    
+    h2 {
+        margin-block: 0;
+    }
+
+    p {
+        margin-block: 0;
+    }
+
+    .container {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .container .card {
+        width: 350px;
+        height: 500px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(46, 45, 45);
+        color: white;
+    }
+
+    .container .card img {
+        border-radius: 100%;
+        object-fit: cover;
+        width: 100px;
+        height: 100px;
+    }
+
+    .container .card .info {
+        margin-block: 15px;
+    }
+
+    .container .card .info p{
+        margin-top: 5px;
+        font-size: 11pt;
+        color: greenyellow;
+    }
+
+    .container .card .desc{
+        margin-bottom: 10px;
+        font-size: small;
+    }
+
+
+    .container .card .btns{
+        width: 250px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .card .btns button {
+        width: 100%;
+        border-radius: 10px;
+        border: none;
+        margin-block: 5px;
+        padding-block: 10px;
+        background-color: rgb(77, 76, 76);
+        color: white;
+        box-shadow: none;
+    }
+
+    .container .card .btns button:hover{
+        color: rgb(0, 0, 0);
+        background-color: greenyellow;
+        transition: all 0.3s ease-in;
+        cursor: pointer;
+    }
+
+    .attribution {
+        text-decoration: none;
+        font-size: 5pt;
+    }
+
+    .attribution a {
+        color: greenyellow;
+    }
